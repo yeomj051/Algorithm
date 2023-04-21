@@ -22,10 +22,10 @@ public class Main {
         int result = 0;
         int periodCount=1;
 
-
         for (int j = 0; j < X; j++) {
             result += totalDayArr[j];
         }
+
         int count=result;
         for (int i = X; i < N; i++) {
             count -= totalDayArr[i-X];
