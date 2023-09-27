@@ -11,11 +11,13 @@ class Solution {
         while(idx < truck_weights.length){
             if(queue.size() == bridge_length) {
                 nowWeight -= queue.poll();
-            }else if(nowWeight + truck_weights[idx] <= weight){
+            }
+            else if(nowWeight + truck_weights[idx] <= weight){
                 queue.add(truck_weights[idx]);
                 nowWeight += truck_weights[idx++];
                 answer++;
-            }else{
+            }
+            else{
                 queue.add(0);
                 answer++;
             }
