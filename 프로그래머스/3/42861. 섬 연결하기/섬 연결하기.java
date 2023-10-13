@@ -29,7 +29,6 @@ class Solution {
     
     public static int getParent(int i){
         if(parents[i] == i) return i;
-        
         return getParent(parents[i]);
     }
 }
