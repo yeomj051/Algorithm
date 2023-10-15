@@ -11,7 +11,6 @@ public class Main {
     public static long minR,maxR;
 
     public static void main(String[] args) throws IOException {
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
 
