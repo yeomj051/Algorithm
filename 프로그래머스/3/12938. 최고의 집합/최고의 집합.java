@@ -6,13 +6,11 @@ class Solution {
             
             int num1 = s/n;
             s = s%n;
-            for(int i=0; i<n;i++){
+            
+            for(int i=n-1; i>=0;i--){
                 answer[i] = num1;
-            }
-            if(s > 0){
-                int idx = n-1;
-                while(s>0){
-                    answer[idx--]++;
+                if(s>0){
+                    answer[i]++;
                     s--;
                 }
             }
