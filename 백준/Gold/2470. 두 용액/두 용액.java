@@ -40,8 +40,6 @@ public class Main {
 			if(sum < 0) left++;
 			else if(sum == 0) break;
 			else right--;
-				
-			
 		}
 		
 		System.out.println(result[0] + " " + result[1]);
