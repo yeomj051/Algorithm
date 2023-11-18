@@ -13,7 +13,7 @@ class Solution {
         for(int i=0; i<cards2.length; i++){
             queue2.add(cards2[i]);
         }
-        
+    
         for(int i=0; i<goal.length; i++){
             if(goal[i].equals(queue1.peek())) queue1.poll();
             else if(goal[i].equals(queue2.peek())) queue2.poll();
