@@ -66,8 +66,6 @@ public class Main {
         System.out.println(stringBuilder);
     }
 
-
-
     private static void floyd(int start) {
         Queue<Integer> queue = new LinkedList<>();
         queue.add(start);
