@@ -37,6 +37,7 @@ public class Main {
                 weight += tList[idx];
                 tChack[idx++]++;
             }
+
             time++;
         }
 
